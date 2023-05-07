@@ -1,0 +1,6 @@
+project: config
+target: config-fuzz
+
+cmds:
+    - cmd: ./config-fuzz
+      libfuzzer: true
